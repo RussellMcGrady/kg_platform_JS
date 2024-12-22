@@ -1,0 +1,12 @@
+{
+  "presets": [
+    "@babel/preset-env",
+    ["@vue/babel-preset-jsx", { "compositionAPI": true }]
+  ],
+  "plugins": [
+    "@babel/plugin-transform-runtime",
+    "@babel/plugin-transform-nullish-coalescing-operator",
+    "@babel/plugin-transform-class-properties",
+    "@babel/plugin-transform-optional-chaining"
+  ]
+}
